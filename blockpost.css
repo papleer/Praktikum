@@ -1,0 +1,89 @@
+body {
+    font-family: quicksand;
+    padding:0;
+    margin: 0;
+    text-decoration: none;
+  }
+
+.navigation {
+    background-color: #904545;
+    display:flex;
+    justify-content:space-between;
+}
+
+.navigation div {
+    display: flex;
+}
+
+.navigation a {
+    color: #ECF1BA;
+    font-weight:400;
+    font-size:1.4em;
+    padding:0.8em 1.2em;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navigation a:hover{
+    background-color: #ddd;
+    color: black;
+
+}
+
+.navigation a:active {
+    background-color: #ECF1BA;
+    color: black;
+  }
+
+
+.navigation a.active {
+    background-color:#ddd ;
+    color:black;
+}
+
+
+
+
+main {
+    margin: 4em auto;    
+    max-width: 1024px;
+
+}
+
+
+.posts {
+    list-style: none;
+    padding: 0;
+}
+
+.posts a{
+    text-decoration: none;
+    color: black;
+    display:flex; 
+    border: 4px solid rgb(255, 255, 255);
+    border-radius: 20px;
+    padding: 1.5em;
+    box-shadow:1px 10px 20px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.posts .image img{
+    width: 200px;
+    height: 150px;
+} 
+
+
+.posts .image {
+    margin-right: 30px;
+}
+
+.posts .Datum {
+    font-weight: 600;
+    padding-top: 7px;
+}
+
+.posts .headline {
+    display: flex;
+    justify-content: space-between;
+}

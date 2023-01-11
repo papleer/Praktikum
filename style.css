@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    padding:0;
+    margin: 0;
+  }
+
+
+.heroimage {
+  min-height: 100vh;
+  display:flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  color:#ECF1BA;
+  position: relative;
+}
+
+.heroimage::before {
+  background-image: url(./images/sonnenuntergang.jpeg);
+  filter:brightness(38%);
+  position: absolute;
+  content: "";
+  height: 100%;
+  top: 0;
+  width: 100%;
+
+}
+
+.heroimage *{
+  position: relative;
+}
+
+.heroimage a{
+  color: #D5D755;
+  text-decoration: none;
+  border: 2.5px solid #D5D755;
+  padding: 1em;
+  border-radius: 10px;
+  font-weight: 600;
+  font-family: Quicksand;
+}
+
+.heroimage h1{
+  font-size: 3.5em;
+  font-weight:700;
+  font-family: Quicksand;
+}
